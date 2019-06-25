@@ -1,14 +1,33 @@
+html{
+    font-size: 62.5%;
+}
+
+/* font-family: 'Courgette', cursive;
+font-family: 'Montserrat', sans-serif; */
+
 body{
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    align-content: center;
+    justify-items: center;
+    max-width: 1000px;
 }
 .maincontent{
-max-width: 800px;
+max-width: 1000px;
 display: flex;
 flex-direction: column;
-align-content: cealign-items: center;
+align-content: center;
 border: pink solid 1px;
+}
+
+h3{
+    font-size: 2.5rem;
+    font-family: 'Courgette', cursive;
+}
+
+p{
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar{
@@ -19,6 +38,7 @@ border: pink solid 1px;
     max-width: 100%;
     height: 5rem;
     border: red 1px solid;
+    font-size: 2rem;
 }
 
 .navlink{
@@ -26,98 +46,175 @@ border: pink solid 1px;
     text-decoration: none;
 }
 
+a{
+    font-family: 'Courgette', cursive;
+}
+
+hr{
+    width: 98%;
+    border: .1rem;
+    height: .18rem;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+#headerimg{
+    width:100%;
+    height: 10rem;
+}
+
+.maincontent{
+    border: green solid 1px;
+}
+
+.threerows{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+/* TOP CONTENT */
+
+.topthird{
+    border:red 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.imagecontainertop{
+    width: 45%;
+}
+
+.mainimgtop{
+    width:100%;
+}
+
+.maintexttop{
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CENTER CONTENT */
+
+.centerthird{
+    border:red 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.imagecontainercenter{
+    order: 2;
+    width: 45%;
+}
+
+.mainimgcenter{
+    order: 1;
+    width:100%;
+}
+
+.maintextcenter{
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* BOTOM CONTENT */
+
+.bottomthird{
+    border:red 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.imagecontainerbottom{
+    width: 45%;
+}
+
+.mainimgbottom{
+    width:100%;
+}
+
+.maintextbottom{
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* MEDIA QUERYS FOR MOBILE BELOW */
+
+@media (max-width: 600px) {
+body{
+    background-color: red;
+}
+
 .threerows{
     display: flex;
     flex-direction: column;
-    align-content: center;
-    align-self: center;
-    justify-items: center;
-    justify-content: center;
+    align-items: center;
 }
+
+/* TOP CONTENT */
 
 .topthird{
-    border: blue 1px solid;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-around;
-    width: 100%;
-    height: 35%;
-}
-
-.topimage{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    width: 45%;
-}
-
-.hompageimg{
-    margin: 1rem;
-    width: 100%;
-    border-radius: 2%;
-}
-
-.toptext{
+    border:black 1px solid;
     display: flex;
     flex-direction: column;
-    align-content: center;
     align-items: center;
-    width:45%;
 }
 
+.imagecontainertop{
+    border: black 1px solid;
+    width:100%
+}
 
+.maintexttop{
+    width:95%;
+}
+/* CENTER CONTENT */
 .centerthird{
-    border: red 1px solid;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-around;
-    width: 100%;
-    height: 35%;
-}
-
-.centerimage{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    width: 45%;
-    height: 100%;
-}
-
-.hompageimg{
-    margin: 1rem;
-    width: 100%;
-    border-radius: 2%;
-    height: 90%
-}
-
-.centertext{
+    border:black 1px solid;
     display: flex;
     flex-direction: column;
-    align-content: center;
     align-items: center;
-    width:45%;
 }
 
+.imagecontainercenter{
+    border: black 1px solid;
+    width:100%
+}
 
+.maintextcenter{
+    width:95%;
+}
 
-
-
-
-
-
-
+/* BOTTOM CONTENT */
 
 .bottomthird{
+    border:black 1px solid;
     display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-around;
-    width: 100%;
-    height: 35%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagecontainerbottom{
+    border: black 1px solid;
+    width:100%
+}
+
+.maintextbottom{
+    width:95%;
+}
+
 }
