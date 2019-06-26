@@ -5,21 +5,29 @@ html{
 /* font-family: 'Courgette', cursive;
 font-family: 'Montserrat', sans-serif; */
 
+
+
+
+
 body{
     max-width: 1000px;
     align-content: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: whitesmoke;
 }
 
 .maindiv{
     margin: 0 auto 0 auto;
 }
 .maincontent{
-
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border: green solid 1px;
+    position: relative;
 }
+
 
 h1{
     color: dodgerblue;
@@ -39,7 +47,8 @@ p{
 }
 
 .navbar{
-    margin: 3rem 0rem;
+    margin: 0rem 0rem;
+    padding: 2rem;
     background-color: slategray;
     display: flex;
     flex-direction: row;
@@ -73,10 +82,6 @@ a{
     height: 10rem;
 }
 
-.maincontent{
-    border: green solid 1px;
-}
-
 .threerows{
     width: 100%;
     display: flex;
@@ -92,8 +97,9 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 95%;
+    width: 100%;
     margin: 2rem 0;
+    background-color: white;
 }
 
 .imagecontainertop{
@@ -102,6 +108,7 @@ a{
 
 .mainimgtop{
     width:100%;
+    border-radius: 4%;
 }
 
 .maintexttop{
@@ -118,8 +125,9 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 95%;
+    width: 100%;
     margin: 2rem 0;
+    background-color: white;
 }
 
 .imagecontainercenter{
@@ -130,6 +138,7 @@ a{
 .mainimgcenter{
     order: 1;
     width:100%;
+    border-radius: 4%;
 }
 
 .maintextcenter{
@@ -146,8 +155,10 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 95%;
+    width: 100%;
     margin: 2rem 0;
+    background-color: white;
+    
 }
 
 .imagecontainerbottom{
@@ -156,6 +167,7 @@ a{
 
 .mainimgbottom{
     width:100%;
+    border-radius: 4%;
 }
 
 .maintextbottom{
@@ -244,4 +256,90 @@ body{
     width:95%;
 }
 
+}
+
+/* ABOUT PAGE */
+
+/* TEST */
+
+#slider, .wrap, .slide-content{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+.wrap{
+    position: relative;
+    height: 400px;
+}
+
+.slide{
+    background-size: contain;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.slide1{
+    background-image: url('Group\ Images/Kelli Hanson.jpeg');
+    background-size: 400px;
+    margin: 0 auto;
+    width: 400px;
+
+}
+
+.slide2{
+    background-image: url('Group\ Images/Miguel.jpeg');
+    background-size: 400px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.slide3{
+    background-image: url('Group\ Images/Giselle Hargrove.jpeg');
+    background-size: 400px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.slidecontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slidecontent span{
+    font-size: 5rem;
+    color: white;
+}
+
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+#leftarrow{
+    border-width: 30px 40px 30px 0;
+    border-color: transparent white transparent transparent;
+    left: 0;
+    margin-left: 30px;
+}
+
+#rightarrow{
+    border-width: 30px 0px 30px 40px;
+    border-color: transparent transparent transparent white;
+    right: 0;
+    margin-right: 30px;
+    z-index: 999;
 }
