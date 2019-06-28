@@ -7,7 +7,7 @@ html{
 body{
     margin: auto;
     max-width: 1200px;
-    background-color: lightgray;
+    background-color: #f5f5f5;
 }
 
 h1, h2, h3, h4, a {
@@ -70,7 +70,7 @@ a{
 
 .row{
     border-radius: 2rem;
-    background-color: whitesmoke;
+    background-color: #fcfcfc;
     width: 95%;
     display: flex;
     flex-direction: row;
@@ -95,7 +95,7 @@ a{
 }
 
 .mstxt{
-    color: whitesmoke;
+    color:#c14953;
 }
 
 .mainimg{
@@ -116,7 +116,7 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: #f5f5f5;
    
 }
 
@@ -158,7 +158,7 @@ footer{
     }
 
     .row{
-        border: whitesmoke 1px solid;
+        border: #fcfcfc 1px solid;
         border-radius: 2rem;
         background-color: #39a9f4;
         width: 85%;
@@ -183,7 +183,7 @@ footer{
 
     .maintext{
         border: #c14953 1px solid;
-        background-color: whitesmoke;
+        background-color: #fcfcfc;
         color: #39a9f4;
         width: 70%;
         display: flex;
@@ -191,6 +191,10 @@ footer{
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+
+    .mstxt{
+        color: #f5f5f5;
     }
 
     #one{
@@ -208,7 +212,7 @@ footer{
     }
 
     .navbar{
-        background-color: lightgrey;
+        background-color: #f5f5f5;
     }
 
     .row{
