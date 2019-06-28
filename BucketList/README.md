@@ -3,7 +3,11 @@ Bucket List App
 
 - The app will make it easier and more relieving to be able to see and accomplish more goals. The app will solve the problem by specifically laying out any goals and being able to clearly see and mark the things that have been accomplished.
 
-Author & Contributir List
+Deployment
+-----------
+Checkout our site here: https://goofy-kare-4a9bd3.netlify.com/
+
+Authors & Contributors List
 -----------
 Kelli Rae Hanson https://github.com/kelliraehanson
 
@@ -32,4 +36,12 @@ Features
 Audience
 ----------
 *The audience I am seeking to target is a younger to middle age group between the ages of 18-35. Who are adventure seekers, goal oriented and love to travel and do things in different areas of life not just around the world but who may want to just be open to trying things out of the ordinary for themselves.
+
+Languages Used
+-----------
+HTML
+
+CSS
+
+JavaScript
 
