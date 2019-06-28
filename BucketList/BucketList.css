@@ -204,7 +204,7 @@ footer{
 
 /* MOBILE STYLING BELOW */
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
  
     body{
         max-width: 500px;
