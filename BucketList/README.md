@@ -5,21 +5,21 @@ Bucket List App
 
 Deployment
 -----------
-Checkout our site here: https://goofy-kare-4a9bd3.netlify.com/
+Checkout out site here: https://goofy-kare-4a9bd3.netlify.com/
 
 Authors & Contributors List
 -----------
-Kelli Rae Hanson https://github.com/kelliraehanson
+- Kelli Rae Hanson https://github.com/kelliraehanson
 
-Giselle Hargrove https://github.com/gisellehargrove
+- Giselle Hargrove https://github.com/gisellehargrove
 
-Miguel Peralta https://github.com/Miguelperalta723
+- Miguel Peralta https://github.com/Miguelperalta723
 
-Christopher Riffle https://github.com/cmr629
+- Christopher Riffle https://github.com/cmr629
 
-Ricardo Solorio https://github.com/Ricardo-1
+- Ricardo Solorio https://github.com/Ricardo-1
 
-Tyler Thompson https://github.com/tthompson082
+- Tyler Thompson https://github.com/tthompson082
 
 Mission
 -----------
@@ -27,21 +27,21 @@ Live by doing all the things you love freely and with joy. Travel the globe, tak
 
 Features
 -----------
-*Simple CRUD app. (create, read, update, and delete things)
+- Simple CRUD app. (create, read, update, and delete things)
 
-*Being able to add and update images along with messages for updated    goals/accomplishments.
+- Being able to add and update images along with messages for updated    goals/accomplishments.
 
-*Being able to deploy with more chat and family/friends. (if MVP is met)
+- Being able to deploy with more chat and family/friends. (if MVP is met)
 
 Audience
 ----------
-*The audience I am seeking to target is a younger to middle age group between the ages of 18-35. Who are adventure seekers, goal oriented and love to travel and do things in different areas of life not just around the world but who may want to just be open to trying things out of the ordinary for themselves.
+- The audience I am seeking to target is a younger to middle age group between the ages of 18-35. Who are adventure seekers, goal oriented and love to travel and do things in different areas of life not just around the world but who may want to just be open to trying things out of the ordinary for themselves.
 
 Languages Used
 -----------
-HTML
+- HTML
 
-CSS
+- CSS
 
-JavaScript
+- JavaScript
 
