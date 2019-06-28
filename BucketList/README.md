@@ -5,7 +5,7 @@ Bucket List App
 
 Deployment
 -----------
-Checkout out site here: https://goofy-kare-4a9bd3.netlify.com/
+Checkout our site here: https://goofy-kare-4a9bd3.netlify.com/
 
 Authors & Contributors List
 -----------
