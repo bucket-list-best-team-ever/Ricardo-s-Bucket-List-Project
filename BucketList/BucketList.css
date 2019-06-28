@@ -123,6 +123,11 @@ a{
 .txt{
     width: 60%;
 }
+
+.blimg{
+    width: 25%;
+}
+
 footer{
     display: flex;
     flex-direction: column;

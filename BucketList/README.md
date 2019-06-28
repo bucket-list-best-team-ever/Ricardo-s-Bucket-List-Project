@@ -17,4 +17,19 @@ Ricardo Solorio https://github.com/Ricardo-1
 
 Tyler Thompson https://github.com/tthompson082
 
+Mission
+-----------
+Live by doing all the things you love freely and with joy. Travel the globe, take on any challenge, overcome obstacles and punch your fears head on! Obligations and duties will always get in the way along this journey we call life. We make it simple to deliver and remember unforgettable experiences worthy of going to the top of any bucket-list accomplishment.
+
+Features
+-----------
+*Simple CRUD app. (create, read, update, and delete things)
+
+*Being able to add and update images along with messages for updated    goals/accomplishments.
+
+*Being able to deploy with more chat and family/friends. (if MVP is met)
+
+Audience
+----------
+*The audience I am seeking to target is a younger to middle age group between the ages of 18-35. Who are adventure seekers, goal oriented and love to travel and do things in different areas of life not just around the world but who may want to just be open to trying things out of the ordinary for themselves.
 
