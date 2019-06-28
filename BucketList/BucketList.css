@@ -82,10 +82,20 @@ a{
 .imagecontainer{
     display: flex;
     justify-content: center;
+    align-content: center;
+    justify-items: center;
     width:30%;
     height: 35rem;
-    display: flex;
 
+}
+
+.ms{
+    text-align: center;
+    margin: 30rem 10rem;
+}
+
+.mstxt{
+    color: whitesmoke;
 }
 
 .mainimg{
@@ -190,7 +200,7 @@ footer{
 
 /* MOBILE STYLING BELOW */
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
  
     body{
         max-width: 500px;
@@ -246,7 +256,7 @@ footer{
     }
 }
 .slideFromLeft{
-    animation: slideFromLeft 2s;
+    animation: slideFromLeft 1.5s;
 }
 @keyframes slideFromLeft{
     0%{
@@ -258,7 +268,7 @@ footer{
 }
 
 .slideFromRight{
-    animation: slideFromRight 2s;
+    animation: slideFromRight 1.5s;
 }
 @keyframes slideFromRight{
     0%{
